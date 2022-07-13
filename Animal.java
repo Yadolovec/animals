@@ -19,7 +19,7 @@ public class Animal{
 	
 	
 	public static void main(String[] args){
-		Animal[] zoo = new Animal[3];
+		/*Animal[] zoo = new Animal[3];
 		zoo[0]=new Animal();
 		zoo[1]=new Tiger();
 		zoo[2]=new Dog();
@@ -37,6 +37,12 @@ public class Animal{
 		Dog doggy = new Dog();
 		
 		doggy.gav();
+		doggy.sneack(5);
+		doggy.sneack();*/
+		
+		Vet v = new Vet();
+		Dog d = new Dog();
+		v.Shot(d);
 		
 	}
 	
