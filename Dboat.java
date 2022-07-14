@@ -1,4 +1,4 @@
-public class Dboat extends Saliboat implements Machine{
+public class Dboat extends Saliboat{
 	
 	
 }

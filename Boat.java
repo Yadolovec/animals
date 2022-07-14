@@ -11,5 +11,8 @@ abstract public class Boat{
 	
 	abstract public void move(int i);
 	
+	public Boat(){
+		System.out.println("OOOOOOOOOOOOO");
+	}
 	
 }

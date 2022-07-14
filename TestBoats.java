@@ -7,7 +7,22 @@ public class TestBoats{
 		Saliboat k = (Saliboat) q;
 		
 		Boat1 r = new Dboat();
-		Saliboat r1 = (Saliboat) r;
+		//Saliboat r1 = (Saliboat) r;
+		
+		
+		b3.move(9);
+		
+		
+		System.out.println(b3.getLength());
+		
+	/*	Dboat a = new Dboat();
+		a.move(5);
+		a.dying();
+		
+		Machine l = new Dboat();
+		l.breaking();
+		
+		
 		
 		if (r instanceof Saliboat)
 			System.out.println("hgfsuihjxhvkjdgvjdgvjdgu \n");
@@ -17,7 +32,7 @@ public class TestBoats{
 		b3.move(1);
 		b2.breaking();
 		r1.breaking();
-		System.out.println(b2.getLength());
+		System.out.println(b2.getLength());*/
 		
 	}
 	
